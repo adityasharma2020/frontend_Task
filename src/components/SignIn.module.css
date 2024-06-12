@@ -1,0 +1,110 @@
+.mainContainer {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+
+.leftContainer {
+	display: flex;
+	height: 100%;
+	flex: 1;
+}
+
+.rightContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	gap: 3rem;
+	padding: 0 1rem;
+	height: 100%;
+	flex-direction: column;
+}
+.logo {
+	display: flex;
+	text-align: start;
+	width: 2rem;
+	height: 2rem;
+	justify-content: start;
+	align-items: center;
+}
+
+.logoContainer {
+	width: 100%;
+	display: flex;
+	justify-content: start;
+	align-content: start;
+}
+.h1 {
+	font-size: 1.5rem;
+}
+.h3 {
+	font-size: 1rem;
+}
+.signInSpan {
+	color: #17b582;
+	cursor: pointer;
+}
+
+.signUpBar {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.imageContainer {
+	height: 100%;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.inputContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 2rem;
+}
+
+.forgotPassword {
+	font-size: 0.8rem;
+}
+.forgetPasswordContainer {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	align-items: center;
+}
+.input {
+	padding: 0.6rem 1.5rem;
+	border-radius: 20px;
+	outline: none;
+	width: 70%;
+	border: 1px solid black;
+}
+
+.submitButton {
+	width: 80%;
+	padding: 0.8rem 0.5rem;
+	font-size: 1rem;
+	color: white;
+	border-radius: 20px;
+	background-color: #17b582;
+	border: none;
+	cursor: pointer;
+}
